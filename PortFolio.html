@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+
+        h1 {
+            font-size: 55px;
+        }
+
+        #venuPic {
+            float: right;
+            margin: 0px;
+            width: 200px;
+        }
+
+        #venuPic:hover {
+            /* cursor:crosshair; */
+        }
+
+        main section {
+            clear: right;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            flex-basis: 100%;
+            padding: 1rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mamidi Venu Gopal</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img id="venuPic" src="venuPic.jpg" alt="Venu's picture with a black Tee">
+            <p>Meet Venu Gopal- a motivated and driven individual with a passion for technology and a thrist for
+                knowledge.Venu's journey began in JNV Gajapati where he completed his primary and secondary education
+                with flying colors.He scored an impressive 95% in class 10th and 89% in 12th.</p>
+            <p>With a keen interest in technology,Venu decided to pursue a degree in computer science at Centurion
+                university. His dedication and commitment to his studies helped him excel in his coursework and gain a
+                deeper understanding of the field.</p>
+            <p>But Venu's interest go beyond just technology.He has love for psychology,writing and watching movies.He
+                enjoys exploring different perspectives and discovering new ideas through these hobbies.</p>
+            <p>As a well rounded individual with a thrist for knowledge,Venu is sure to bring his diverse experiences
+                and unique perspective to any project he works on.He is always looking for new challenges and
+                opportunities to grow both personally and professionally.</p>
+        </section>
+
+        <section id="education">
+            <h2>My education</h2>
+            <h3>Matriculation</h3>
+            <li>Jawahar Navodaya Vidyalaya</li>
+            <li>CBSE 2019</li>
+            <li>94.8%</li>
+            <h3>Intermediate</h3>
+            <li>Jawahar Navodaya Vidyalaya</li>
+            <li>CBSE 2021</li>
+            <li>Math, Physics, Biology, Chemistry</li>
+            <li>88.6%</li>
+            <h3>Graduation</h3>
+            <li>Centurion University of Technology and Management</li>
+            <li>B-Tech (Computer Science & Engineering)</li>
+            <li>2021-2025</li>
+
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <ul>
+                <li>
+                    <h3>Project 1: File encryption using JAVA</h3>
+
+                    <p> This project is aimed at developing a desktop-based application named File encryption is the
+                        process of converting a readable file into an unreadable format, which can only be accessed with
+                        the appropriate decryption key. This is done to protect sensitive data and prevent unauthorized
+                        access to it. File encryption can be used to protect files on a local device, in transit over a
+                        network, or stored on a remote server. File encryption protects individual files or file systems
+                        by encrypting them with a specific key, making them accessible only to the keyholder. The goal
+                        is to prevent malicious or unauthorized parties from accessing files that are stored on the
+                        disk. Support for file encryption can be built into an operating system or file system. A
+                        decryption key allows access to the sensitive files. File encryption is helpful if a user needs
+                        to send individual files securely over the internet or store them on a removable device such as
+                        a USB stick. File encryption is an important security measure for protecting sensitive data from
+                        unauthorized access. It is widely used in industries such as healthcare, finance, and
+                        government, as well as by individuals who want to protect their personal data. There are many
+                        different encryption techniques available, each with its own level of complexity and strength.
+                        While encryption is a powerful tool for protecting sensitive data, it's important to remember
+                        that no system is completely fool proof, and there is always a risk of vulnerabilities being
+                        exploited.</p>
+                </li>
+                <li>
+                    <h3>Project 2: Automatic short answer questions generation from text</h3>
+                    <p>The purpose of this project is to develop an automatic system that generates short answer questions (SAQs) from a given text using Bloom's Taxonomy as a framework. Bloom's Taxonomy is a widely used classification system that categorizes learning objectives into different cognitive domains, such as knowledge, comprehension, application, analysis, synthesis, and evaluation. The system aims to assess students' understanding and critical thinking skills by generating questions that align with specific cognitive levels.</p>
+                </li>
+                
+            </ul>
+        </section>
+        <section id = "resume">
+            <h3>Download my resume by clicking <a href="Resume-MAMIDI-VENU-GOPAL.pdf"download="Resume-MAMIDI-VENU-GOPAL.pdf">here</a></h3>
+            
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Phone: 8260676280</p>
+            <p>You can reach me at venu062269@gmail.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; Venu Gopal</p>
+    </footer>
+</body>
+
+</html>
